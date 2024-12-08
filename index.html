@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Ethiopic&display=swap" rel="stylesheet">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <title>Hilari Portfolio</title>
+  <link href="style.css" rel="stylesheet"/>
+</head>
+<body>
+  <header class="header">
+    <a href="#" class="logo"><span>ሒ</span>LARY</a>
+    <nav class="navbar">
+      <a href="#" class="active">Home</a>
+      <a href="#about">About</a>
+      <a href="#Projects">Portfolio</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+  <section class="home">
+    <div class="home-content">
+      <h1>Hi,I'am Hilari </h1>
+      <h3>Frontend developer </h3>
+      <p>Passionate about crafting intuitive and visually engaging web applications,
+         I specialize in front-end development using HTML, CSS, JavaScript, and React. 
+         With a focus on responsive design, my work ensures seamless user experiences across devices.
+         Dedicated to solving real-world challenges through innovative and efficient code.
+      </p>
+      <div class="btn-box">
+        <a href="#">Hire Me</a>
+        <a href="#">Let's Talk</a>
+      </div>
+    </div>
+    <div class="home-icon">
+      <a href="#"><i class='bx bxl-facebook'></i></a>
+      <a href="#"><i class='bx bxl-twitter'></i></a>
+      <a href="https://www.linkedin.com/in/hilary-gebremedhn-97528b20b"><i class='bx bxl-linkedin'></i></a>
+      <a href=""><i class='bx bxl-github'></i></a>
+    </div>
+    <img src="20200511_110505.jpg"/>
+  </section>
+  <section id="about">
+    <div class="Avatar">
+ <img src="20200511_110505.jpg"/>
+    </div>
+    <div class="content">
+<h2>About <span>me</span></h2>
+<h3>Frontend <span>Developer</span></h3>
+<p>Hi, I'm Hilari Gebremedhin, a passionate front-end developer 
+  with a strong foundation in engineering and problem-solving.
+   I hold a degree in Mechanical Engineering from Addis Ababa University,
+    where I honed my analytical and technical skills.
+  My journey into software development began with a desire to create 
+  impactful and user-friendly web applications. I've built a solid foundation in HTML,
+   CSS, JavaScript, and React, complemented by hands-on projects that showcase
+    my creativity and attention to detail.
+  When I'm not coding, I enjoy exploring new technologies, 
+  solving real-world challenges, and sharing my journey with others. 
+  I'm driven by a commitment to continuous learning and creating meaningful digital experiences.</p>
+  <a href="resume.pdf" class="resume-btn" target="_blank" download="YourName_Resume.pdf">
+    Download My Resume
+  </a>
+    </div>
+  </section>
+  <section id="Projects">
+    <h2><span>My</span> Development Journey</h2>
+    <div class="Portfolio-container">
+      <a href="https://hilarygh.github.io/GO2COD_WD_03/">
+      <div class="Portfolio-box">
+        <img src="projectes image/calculator tumbinal 1.PNG"/>
+        <div class="Portfolio-layer">
+          <h4>Calculator-WebApp</h4>
+          <p>A dynamic calculator app built with Vite, React, and TypeScript,
+            offering smooth performance and a user-friendly interface.</p>
+        </div>
+      </div>
+    </a>
+    <a href="https://hilarygh.github.io/PalindromeChecker/">
+      <div class="Portfolio-box">
+        <img src="projectes image/palindrom.PNG"/>
+        <div class="Portfolio-layer">
+          <h4>Palindrom-Checker</h4>
+          <p>A JavaScript-based palindrome checker app to validate user inputs 
+            and enhance problem-solving skills</p>
+        </div>
+      </div>
+    </a>
+    <a href="https://hilarygh.github.io/CashRegisterApp/">
+      <div class="Portfolio-box">
+        <img src="projectes image/cash register.PNG"/>
+        <div class="Portfolio-layer">
+          <h4>Cash-Resgister App</h4>
+          <p>A functional cash register app designed using HTML, CSS, 
+            and JavaScript to calculate change and improve transaction efficiency.</p>
+        </div>
+      </div>
+    </a>
+    <a href="https://hilarygh.github.io/GO2COD_WD_01/">
+      <div class="Portfolio-box">
+        <img src="projectes image/todo -list.PNG"/>
+        <div class="Portfolio-layer">
+          <h4>Todo-List App</h4>
+          <p>An intuitive to-do list app developed with JavaScript, 
+            featuring local storage for task management and responsive design for mobile use.</p>
+        </div>
+      </div>
+    </a>
+    <a href="https://hilarygh.github.io/GO2COD_WD_04/">
+      <div class="Portfolio-box">
+        <img src="projectes image/image gallery.PNG"/>
+        <div class="Portfolio-layer">
+          <h4>Responsive Image Gallery</h4>
+          <p>A beautifully styled image gallery showcasing traditional Ethiopian culture, 
+            implemented with HTML, CSS, and Lightbox for seamless viewing</p>
+        </div>
+      </div>
+    </a>
+      <a href="https://hilarygh.github.io/GO2COD_WD_02/">
+      <div class="Portfolio-box">
+        <img src="projectes image/quiz project.PNG"/>
+        <div class="Portfolio-layer">
+          <h4>Quiz-App</h4>
+          <p>An engaging quiz application that fetches questions from the Open Trivia Database API,
+            offering diverse and challenging topics</p>
+        </div>
+      </div>
+    </div>
+  </a>
+    
+  </section>
+  <section id="contact">
+    <h2>Contact <span>Me</span></h2>
+    <p>Feel free to reach out for collaborations, questions, or just to say hi!</p>
+    <div class="contact-container">
+      <!-- Contact Form -->
+      <form class="contact-form">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="Your Name" required>
+        
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="Your Email" required>
+        
+        <label for="message">Message</label>
+        <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+        
+        <button type="submit">Send Message</button>
+      </form>
+      
+      <!-- Contact Info -->
+      <div class="contact-info">
+        <h3>Get in Touch</h3>
+        <ul>
+          <li><i class='bx bxs-envelope'></i><em> hilarygebremedhn28@gmail.com</em></li>
+          <li><i class='bx bx-phone'></i><em> +251 989834889</em</li>
+            <li><strong>Location:</strong> Addis Ababa, Ethiopia</li>
+        </ul>
+               <ul class="social-links">
+         <li><a href="#"><i class='bx bxl-facebook'></i></a></li> 
+         <li><a href="https://www.linkedin.com/in/hilary-gebremedhn-97528b20b"><i class='bx bxl-linkedin'></i></a></li> 
+         <li><a href="#"><i class='bx bxl-twitter'></i></a></li>
+         <li> <a href="https://github.com/HilaryGH"><i class='bx bxl-github'></i></a></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <p>© 2024 ሂላሪ ገብረመድህን. All Rights Reserved.</p>
+    <p>Designed and coded with 
+      <span style="color: red; font-size: 16px;">❤️</span> 
+      using 
+      <a href="#" target="_blank">HTML</a>, 
+      <a href="#" target="_blank">CSS</a>, and 
+      <a href="#" target="_blank">JavaScript</a>.
+    </p>
+  </footer>
+</body>
+</html>

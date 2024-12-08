@@ -413,73 +413,89 @@ height:50px;
 @media (max-width: 768px) {
   .header {
     padding: 15px 5%;
-    flex-direction: column;
-    align-items: flex-start;
   }
 
   .navbar a {
-    font-size: 18px;
-    margin-left: 20px;
+    font-size: 16px;
+    margin-left: 10px;
   }
 
   .home {
-    flex-direction: column;
-    padding: 10% 5%;
+    padding: 3% 5%;
   }
 
   .home-content h1 {
-    font-size: 36px;
-  }
-
-  .home-content h3 {
     font-size: 28px;
   }
 
-  .home img {
-    width: 250px;
-    height: 250px;
-    margin: 20px auto 0;
+  .home-content h3 {
+    font-size: 22px;
   }
 
+  .home img {
+    width: 150px;
+    height: 150px;
+  }
+  span{
+    font-size: 22px;
+  }
   .btn-box {
-    flex-direction: column;
-    width: 100%;
-    gap: 15px;
+    width: 180px;
+    height:40px;
   }
 
   .btn-box a {
-    width: 100%;
+    font-size: 13px;
+    width: 80px;
+    height:100%
   }
 
   #about {
-    flex-direction: column;
-    padding: 5% 5%;
+    padding: 5px 5px;
+    gap:5px;
   }
 
   .Avatar img {
-    width: 100%;
-    height: auto;
-    margin-bottom: 20px;
+    width: 150px;
+    height: 180px;
+  
   }
 
   .content h2,
   .content h3 {
-    font-size: 32px;
+    font-size: 18px;
     text-align: center;
   }
+  
 
   .content p {
+    font-size: 12px;
     text-align: justify;
   }
 
   .resume-btn {
-    font-size: 0.9rem;
-    padding: 8px 12px;
+    font-size: 0.8rem;
+    padding: 5px 18px;
+    border-radius: 2px;
   }
 
   .Portfolio-container {
-    grid-template-columns: repeat(1, 1fr);
-    gap: 1.5rem;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+
+  .Portfolio-box img {
+    height: 150px;
+  }
+  .Portfolio-box .Portfolio-layer{
+    padding:0 2px;
+  }
+  .Portfolio-layer h4{
+    font-size: 14px;
+  }
+  .Portfolio-layer p{
+    font-size: 10px;
+    margin: 0.1rem 0 0.5rem;
   }
 
   #contact {
@@ -522,24 +538,45 @@ height:50px;
   }
 
   .navbar a {
-    font-size: 16px;
-    margin-left: 15px;
+    font-size: 12px;
+    margin-left: 10px;
+  }
+  .home{
+    padding: 0 5px;
+    margin:5px 0;
   }
 
   .home-content h1 {
-    font-size: 28px;
+    font-size: 24px;
   }
 
   .home-content h3 {
-    font-size: 20px;
+    font-size: 16px;
+  }
+  .home-content p{
+    font-size: 12px;
+    margin: 5px 0 10px;
   }
 
   .Portfolio-container {
-    gap: 1rem;
+    gap: 10px;
+  }
+  #Projects h2{
+    font-size:22px;
+    text-align:center;
+    margin-bottom: 20px;
+    margin-top: 20px;
   }
 
   .Portfolio-box img {
-    height: 200px;
+    height: 150px;
+  }
+  .Portfolio-box .Portfolio-layer{
+    padding:0 1px;
+  }
+  .Portfolio-layer p {
+    font-size: 12px; /* Further adjust for very small screens */
+    margin: 0.1rem 0 0.5rem; /* Further adjust margins */
   }
 
   .contact-info i {

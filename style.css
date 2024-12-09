@@ -412,6 +412,10 @@ height:50px;
   .header {
     padding: 15px 5%;
   }
+  .logo{
+    font-size: 18px;
+  }
+
   section {
     padding: 10px 5px; /* Adds space inside the section */
     margin: 10px auto;
@@ -422,7 +426,9 @@ height:50px;
   }
   .home{
     padding:0 5%;
+    min-height:70vh
   }
+  
   .home-content h1 {
     font-size: 26px;
   }
@@ -448,15 +454,20 @@ height:50px;
     width: 80px;
     height:100%
   }
+  .home-icon{
+    position:absolute;
+    top:64%;
+  }
 
   #about {
     gap:5px;
+    min-height: 70vh;
+    padding:0 5px;
   }
 
   .Avatar img {
-    width: 150px;
+    width: 160px;
     height: 180px;
-  
   }
 
   .content h2,
@@ -467,14 +478,22 @@ height:50px;
   
 
   .content p {
-    font-size: 12px;
+    font-size: 14px;
     text-align: justify;
   }
 
   .resume-btn {
     font-size: 14px;
-    padding: 5px 15px;
+    padding: 5px 10px;
     border-radius: 2px;
+  }
+  #Projects{
+    min-height:80vh;
+  }
+  #Projects h2{
+    font-size:24px;
+    margin-bottom: 20px;
+    margin-top: 30px;
   }
 
   .Portfolio-container {
@@ -484,6 +503,7 @@ height:50px;
 
   .Portfolio-box img {
     height: 150px;
+    
   }
   .Portfolio-box .Portfolio-layer{
     padding:0 2px;
@@ -541,10 +561,13 @@ height:50px;
   }
   section {
     padding: 5px 10px;
-    margin: 0;
   }
   .home{
     padding: 0 5px;
+    min-height: 70vh;
+  }
+  .home-content{
+    margin-top: 0;
   }
 
   .home-content h1 {
@@ -559,17 +582,19 @@ height:50px;
     margin: 8px 0 10px;
   }
   .home-icon{
-    top:70%;
+    top:60%;
     width:170px;
   }
   .Portfolio-container {
     gap: 10px;
   }
+  #Projects{
+    height:80vh;
+  }
   #Projects h2{
-    font-size:22px;
-    text-align:center;
-    margin-bottom: 20px;
-    margin-top: 20px;
+    font-size:18 px;
+    margin-bottom: 10px;
+    margin-top: 15px;
   }
 
   .Portfolio-box img {
